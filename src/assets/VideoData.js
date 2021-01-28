@@ -57,8 +57,8 @@ const elephantsDreamAligned = {
     { "word": "same", "start": 25, "end": 25.25 },
     { "word": "Proog", "start": 25.25, "end": 26.11 },
     { "word": "Exactly", "start": 26.11, "end": 26.74475 },
-    { "word": "the", "start": 26.74475, "end": 27.378500000000003 },
-    { "word": "same", "start": 27.378500000000003, "end": 28.01225 },
+    { "word": "the", "start": 26.74475, "end": 27.3785 },
+    { "word": "same", "start": 27.3785, "end": 28.01225 },
     { "word": "Nothing", "start": 28.01225, "end": 28.646 },
     { "word": "Great", "start": 29.4, "end": 30 }
   ]

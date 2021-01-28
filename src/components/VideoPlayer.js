@@ -23,7 +23,6 @@ export default function VideoPlayer(props) {
       axios.get(subtitles).then(response => {
         if (subtitles.includes('.srt')) {
           const srt = parseSRT(response.data);
-          // console.log(srt);
           setSubs(align(srt, alignedWords));
         }
         if (subtitles.includes('.vtt')) {
@@ -105,7 +104,6 @@ function getTimedEntry(timestamp, timedEntries) {
 
 /* Checks that the aligned words provided match up with the subtitles  */
 function checkValid(alignedWords, subs) {
-  console.log("Checking aligned words", alignedWords);
   /* Sort in order of time */
   alignedWords = alignedWords.sort((w1, w2) => w1.time - w2.time);
 
