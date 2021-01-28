@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Setup
+
+Run `npm install` in the project directory.
+
 ## Usage
 
 In the project directory, you can run `npm start` to run the app in development mode.
@@ -29,4 +33,4 @@ These files can be found in the `src` directory.
     * [Optional] `alignedWords` - Timestamps indicating the beginning and end of each word in the transcript
 * Pass the object to `Video` in `App.js`
 
-N.B. To pass links to files they must be imported in `VideoData.js`
+To pass links to files they must be imported in `VideoData.js`
