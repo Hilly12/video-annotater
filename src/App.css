@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  padding-top: 2%;
+  font-family: "Montserrat", serif;
 }
 
 .App-logo {
@@ -35,4 +37,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.center {
+  padding: 5px;
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.video {
+  margin: 20px;
+}
+
+.info {
+  margin-top: 20px;
+  margin-left: 20%;
+  width: 60%;
+}
+
+.transcript {
+  font-weight: normal;
+}
+
+.punctuation {
+  opacity: 0.84;
+}
+
+.word {
+  opacity: 0.84;
+  cursor: pointer;
+}
+
+.word:hover {
+  opacity: 1;
 }
